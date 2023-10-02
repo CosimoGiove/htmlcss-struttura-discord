@@ -4,7 +4,7 @@ padding: 0;
 box-sizing: border-box;
 }
 /**debug**/
-.main-header.debug{
+.debug .main-header{
 background-color: orange;
 height: 30px;
 }
@@ -15,29 +15,29 @@ header{
 background-color: aqua;
 height:50px;
 }
-.contenitorevuoto.debug{
+
+.debug .contenitorevuoto{
 height: 300px;
-background-color: blue;
+background-color:#010b65;
 }
-.contenitorevuoto.debug{
-height: 300px;
-background-color: blue;
-}
-.contenitore-interno.debug{
+.debug .contenitore-interno{
 height: 250px;
 background-color: #ee82ee;
 }
-.containersezione.debug{
+.debug .containersezione{
 height: 400px;
 background-color: white;
 }
-.containersx.debug{
+.debug .containersx{
 height: 300px;
-background-color: red;
+background-color: blue;
 }
-.containerdx.debug{
+.debug .containerdx{
 height: 300px;
 background-color: #ee82ee;;
+}
+#coloresfondo{
+background-color:#d3d3d3 ;
 }
 /**fine debug**/
 
@@ -96,3 +96,6 @@ width: 30%;
 }
 /**fine seconda sezione**/
 /**inizio terza sezione**/
+.order{
+order: -1;
+}

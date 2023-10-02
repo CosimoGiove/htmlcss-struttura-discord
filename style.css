@@ -3,6 +3,9 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
+.debug #sfondopiedipagina{
+background-color: black;
+}
 /**debug**/
 .debug .main-header{
 background-color: orange;
@@ -23,6 +26,7 @@ background-color:#010b65;
 .debug .contenitore-interno{
 height: 250px;
 background-color: #ee82ee;
+border: 2px solid black;
 }
 .debug .containersezione{
 height: 400px;
@@ -31,10 +35,12 @@ background-color: white;
 .debug .containersx{
 height: 300px;
 background-color: blue;
+border: 2px solid black;
 }
 .debug .containerdx{
 height: 300px;
-background-color: #ee82ee;;
+background-color: #ee82ee;
+border: 2px solid black;
 }
 .debug #coloresfondo{
 background-color:#d3d3d3 ;
@@ -42,10 +48,47 @@ background-color:#d3d3d3 ;
 .debug .containergrande{
 height: 700px;
 background-color: green;
+border: 2px solid black;
 }
 
 .debug .containersezionegrande{
 height:800px ;
+}
+.debug .piedipagina{
+height: 400px ;
+background-color: red;
+}
+.debug .piedipagina2{
+height: 400px;
+background-color: aqua;
+}
+.debug .containersezione5{
+height: 500px;
+}
+
+.debug .colonneinterne{
+border: 1px solid white;
+background-color: #20b2aa;
+}
+.debug footer{
+background-color: black;
+}
+
+.debug .containersezione5{
+border-bottom: 1px solid  white;
+}
+.debug .button{
+background-color: red;
+border: 1px solid black;
+}
+.debug .footer-container{
+background-color: black;
+height: 200px;
+border: 1px solid black;
+}
+.debug .footer{
+background-color:#7fffd4;
+height: 100px;
 }
 /**fine debug**/
 
@@ -56,9 +99,9 @@ justify-content: center;
 }
 .main-header{
 display: flex;
-justify-content: space-between;
-width: 70%;
+width: 80%;
 }
+
 .logo{
 width: 250px;
 }
@@ -71,11 +114,11 @@ text-align: right;
 }
 .link{
 flex-grow: 1;
-text-align: center;
+text-align: center ;
 flex-shrink: 0;
 }
 /**fine header**/
-/**prima sezione**/
+/**prima sezione main**/
 .contenitorevuoto{
 width: 100%;
 display: flex;
@@ -86,7 +129,7 @@ justify-content: center;
 .contenitore-interno{
 width: 50%;
 }
-/**fine prima sezione/**
+/**fine prima sezione main/**
 /**inizio seconda sezione**/
 
 .containersezione{
@@ -120,4 +163,37 @@ justify-content: center;
 align-items: center;
 }
 /**fine quarta sezione**/
-/**inizio quinta sezione**/
+/**inizio quinta sezione footer**/
+.piedipagina{
+width: 20%;
+}
+.piedipagina2{
+width: 60%;
+display: flex;
+}
+
+.colonneinterne{
+width:calc(100% /4);
+align-items: stretch;
+}
+.containersezione5{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+/**fine quinta sezione footer**/ 
+
+/**button footer**/
+.footer{
+width: 80%;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.footer-container{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+

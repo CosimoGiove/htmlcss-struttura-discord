@@ -36,8 +36,16 @@ background-color: blue;
 height: 300px;
 background-color: #ee82ee;;
 }
-#coloresfondo{
+.debug #coloresfondo{
 background-color:#d3d3d3 ;
+}
+.debug .containergrande{
+height: 700px;
+background-color: green;
+}
+
+.debug .containersezionegrande{
+height:800px ;
 }
 /**fine debug**/
 
@@ -89,6 +97,7 @@ align-items: center;
 
 .containersx{
 width:50%;
+
 }
 
 .containerdx{
@@ -99,3 +108,16 @@ width: 30%;
 .order{
 order: -1;
 }
+/**fine terza sezione**/
+/**inizio quarta sezione**/
+.containergrande{
+width: 80%;
+}
+
+.containersezionegrande{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+/**fine quarta sezione**/
+/**inizio quinta sezione**/
